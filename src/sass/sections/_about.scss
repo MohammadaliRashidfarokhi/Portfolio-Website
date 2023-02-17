@@ -1,13 +1,15 @@
 #about {
-  background-color: $primary-color;
+  background-color: #3500D3;
   background-image: linear-gradient(
     135deg,
-    $primary-color 0%,
-    $secondary-color 100%
+  black 30%,
+    purple 100%
   );
+  background-color: black ;
+
   color: $white-color;
   height: 100%;
-  border-top: 0px;
+  border-top: 100px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   padding-bottom: 10%;
